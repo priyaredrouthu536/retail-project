@@ -1,0 +1,357 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+/*-------connect_webs---------*/
+.pinakapos_websfrm {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.pinakapos_websfrm .pinakapos_siteheader.text-center {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.pinakapos_websfrm .pinakapos_siteheader.text-center img {
+    max-width: 50px;
+}
+
+.pinakapos_websfrm .pinakapos_siteheader.text-center h1 {
+    color: #1A1A1A;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pinakapos_websfrm .pinakapos_siteheader form h1 {
+    color: #1d2327;
+    font-size: 18px;
+    margin: 0.67em 0;
+    font-weight: 600;
+}
+
+.pinakapos_websfrm .form-group {
+    margin-bottom: 20px;
+}
+
+.pinakapos_websfrm form {
+    background-color: #fff;
+    padding: 20px 20px 20px;
+    border: 1px solid #E4E4E5;
+    border-radius: 5px;
+}
+
+.pinakapos_websfrm .pinakapos_formgroupbg {
+    background-color: #fff;
+    padding: 15px 15px 0;
+    border: 1px solid #E4E4E5;
+    margin-top: 15px;
+}
+
+.pinakapos_websfrm form h1 {
+    color: #1d2327;
+    font-size: 20px;
+    margin: 0.67em 0;
+    font-weight: 700;
+}
+
+.pinakapos_websfrm form h1 svg {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.pinakapos_websfrm .form-group textarea {
+    background-color: #fff;
+    border: 1px solid #E4E4E5;
+    color: #000;
+    border-radius: 2px;
+    display: block;
+    float: none;
+    font-size: 14px;
+    padding: 6px 10px;
+    width: 100%;
+    height: 80px;
+    line-height: 1.3;
+    font-weight: 500;
+}
+
+.pinakapos_websfrm .form-group textarea::placeholder {
+    color: #B7B7B7;
+    font-weight: 500;
+}
+
+/*--update_btn--*/
+.pinakapos_websfrm .form-group button.pinakapos_update {
+    display: inline-block;
+    height: 40px;
+    line-height: 26px;
+    padding-right: 25px;
+    padding-left: 60px;
+    position: relative;
+    background-color: #FDD86D;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.pinakapos_websfrm .form-group button.pinakapos_update span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    background-color: #EBC862;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-top-left: 5px;
+    -moz-border-radius-bottom-left: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid #EBC862;
+}
+
+/*--connect_btn--*/
+.pinakapos_websfrm .pinakapos_connect {
+    display: inline-block;
+    height: 40px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-right: 60px;
+    position: relative;
+    background-color: #7FD693;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.pinakapos_websfrm .pinakapos_connect span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    background-color: #66C97D;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-top-right: 5px;
+    -moz-border-radius-bottom-right: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #66C97D;
+}
+
+/*--alert_message--*/
+.pinakapos_websfrm .pinakapos_alertmsg {
+    background-color: #FFF6F6;
+    padding: 0 20px 10px;
+    border: 1px solid #912D2B;
+    border-radius: 5px;
+    color: #912D2B;
+    display: flex;
+}
+
+.pinakapos_websfrm .pinakapos_alertmsg p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pinakapos_websfrm .pinakapos_alertmsg b {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pinakapos_websfrm .pinakapos_alertmsg a {
+    color: #5C94D4;
+    text-decoration: underline;
+}
+
+.pinakapos_websfrm .pinakapos_alertmsg svg {
+    margin: 17px 20px 0px 0;
+}
+
+/*----------license_expaired-----------*/
+/*--renew_btn--*/
+.pinakapos_licensexpiredbg .pinakapos_renewbtn {
+    display: inline-block;
+    height: 40px;
+    line-height: 26px;
+    padding-left: 25px;
+    padding-right: 60px;
+    position: relative;
+    background-color: #A5673F;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 0;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_renewbtn span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 50px;
+    background-color: #905732;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-top-right: 5px;
+    -moz-border-radius-bottom-right: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #66C97D;
+}
+
+/*--alert_message2--*/
+.pinakapos_licensexpiredbg .pinakapos_alertmsg {
+    background-color: #FFF6F6;
+    padding: 0 20px 10px;
+    border: 1px solid #796037;
+    border-radius: 5px;
+    color: #796037;
+    display: flex;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_alertmsg p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #796037;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_alertmsg b {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_alertmsg a {
+    color: #5C94D4;
+    text-decoration: none;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_alertmsg svg {
+    margin: 22px 20px 0px 0;
+}
+
+.pinakapos_licensexpiredbg table {
+    width: 100%;
+    margin-top: 15px;
+    border: 0px solid #E4E4E5 !important;
+}
+
+.pinakapos_licensexpiredbg table,
+.pinakapos_licensexpiredbg th,
+.pinakapos_licensexpiredbg td {
+    border: 1px solid #E4E4E5;
+    text-align: left;
+    color: #2D2D2D;
+    font-size: 15px;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
+
+.pinakapos_licensexpiredbg td {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.pinakapos_licensexpiredbg.shadowbg {
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 40px 0px;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_alertmsg svg {
+    margin: 18px 20px 0px 0;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_disconnectaccount {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    line-height: 32px;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid #A5673F;
+    color: #A5673F;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 20px;
+    text-align: left;
+    margin-left: 6%;
+    padding: 0 20px;
+}
+
+.pinakapos_licensexpiredbg .pinakapos_disconnectaccount svg {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+}
+
+/*--alert_message3--*/
+.pinakapos_licensevalid .pinakapos_alertmsg {
+    background-color: #FCFFF5;
+    padding: 0 20px 10px;
+    border: 1px solid #1A531B;
+    border-radius: 5px;
+    color: #1A531B;
+    display: flex;
+}
+
+.pinakapos_licensevalid .pinakapos_alertmsg p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A531B;
+}
+
+.pinakapos_licensevalid .pinakapos_alertmsg b {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pinakapos_licensevalid .pinakapos_alertmsg svg {
+    margin: 12px 20px 0px 0;
+}
+
+
+.widefat {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.widefat th, .widefat td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.widefat th {
+    background-color: #f0f0f0;
+}
+.widefat tfoot {
+    background-color: #f9f9f9;
+    font-weight: bold;
+}
+
+.widefat tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
